@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-image: url(imagens/universo-scaled.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -250px;
+}
+
+
+#cardsContainer {
+    background: rgba(255, 255, 255, 0.048);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    width: 75%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key {
+    background-image: linear-gradient(to right bottom, rgb(12, 90, 109) , rgb(50, 17, 128) , rgb(57, 5, 92));
+    color: rgba(66, 141, 190, 0.815);
+    width: 85px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(2, 60, 68, 0.068);
+    box-shadow: 1px 1px 1px 1px rgba(42, 4, 73, 0.247);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.playing {
+    background-image: linear-gradient(to left top, rgb(98, 31, 160) , rgb(66, 28, 156) , rgb(33, 118, 151));
+    box-shadow: 1px 1px 1px 1px rgba(9, 71, 141, 0.144);
+    color:rgb(22, 4, 88);
+    border: 2px solid rgb(158, 19, 128);
+    transition: 1s;
+}
+
+
+.key h1 {
+    font-weight: bolder;
+    margin: 7px;
+}
