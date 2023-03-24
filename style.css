@@ -92,6 +92,7 @@ table {
     color:rgb(22, 4, 88);
     border: 2px solid rgb(158, 19, 128);
     transition: 1s;
+    transform: scale(1.1);
 }
 
 
