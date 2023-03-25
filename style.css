@@ -100,3 +100,28 @@ table {
     font-weight: bolder;
     margin: 7px;
 }
+
+@media screen and (max-width: 900px){
+	
+    #cards {
+        position: relative;
+        bottom: -56px;
+    }
+    
+    main {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keys {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .key {
+        width: 60%;
+        height: 65px;
+    }
+}
