@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    background-image: url(imagens/universo-scaled.jpg);
+    background-image: url(imagens/background.jpg);
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -56,7 +56,7 @@ table {
 }
 
 
-#cardsContainer {
+.keys {
     background: rgba(255, 255, 255, 0.048);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13.5px );
@@ -91,8 +91,8 @@ table {
     box-shadow: 1px 1px 1px 1px rgba(9, 71, 141, 0.144);
     color:rgb(22, 4, 88);
     border: 2px solid rgb(158, 19, 128);
-    transition: 1s;
-    transform: scale(1.1);
+    transition: 0.7s;
+    transform: scale(1.005);
 }
 
 
